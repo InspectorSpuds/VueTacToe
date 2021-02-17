@@ -1,0 +1,35 @@
+/*Border operations on the table*/
+table, td, tr {
+  border:  5px solid black;
+  border-collapse: collapse;
+  vertical-align: middle;
+}
+
+
+
+/*centering and resizing the table*/
+table {
+  width: 60%;
+  height: 60%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*give table data proper height and a background*/
+td {
+  text-align: center;
+  width: 20%;
+  padding-bottom: 20%;
+  background: rgb(2, 178, 248);
+  user-select: none;
+}
+
+/**/
+td:hover {
+  background: rgb(3, 112, 155);
+}
+
+td:active {
+  background: rgb(3, 80, 110);
+}
